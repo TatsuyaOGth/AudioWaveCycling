@@ -1,13 +1,17 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# .gitignore
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/default.*
+*/*xcodeproj/*.xcworkspace/
+*/*.xcodeproj/xcshareddata/
+*/*.xcodeproj/xcuserdata/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+!bin/data/
+*.app
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+
+build/
+!README.txt
+
+02_03_justMovinTest2
+meshFromCamera
